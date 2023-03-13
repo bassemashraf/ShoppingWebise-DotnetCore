@@ -9,7 +9,7 @@ using ShopingWebsite.Models;
 
 namespace ShopingWebsite.Migrations
 {
-    [DbContext(typeof(ShopingDBContext))]
+    [DbContext(typeof(ShoppingDBContext))]
     partial class ShopingDBContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -87,6 +87,30 @@ namespace ShopingWebsite.Migrations
                     b.ToTable("Pies");
                 });
 
+            modelBuilder.Entity("ShopingWebsite.Models.ShoppingCartItem", b =>
+                {
+                    b.Property<int>("ShoppingCartItemID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ShoppingCartItemID"));
+
+                    b.Property<int>("Amount")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PieId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ShoppingCartID")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ShoppingCartItemID");
+
+                    b.HasIndex("PieId");
+
+                    b.ToTable("ShoppingCartItems");
+                });
+
             modelBuilder.Entity("ShopingWebsite.Models.Pie", b =>
                 {
                     b.HasOne("ShopingWebsite.Models.Category", "Category")
@@ -96,6 +120,17 @@ namespace ShopingWebsite.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("ShopingWebsite.Models.ShoppingCartItem", b =>
+                {
+                    b.HasOne("ShopingWebsite.Models.Pie", "Pie")
+                        .WithMany()
+                        .HasForeignKey("PieId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Pie");
                 });
 
             modelBuilder.Entity("ShopingWebsite.Models.Category", b =>

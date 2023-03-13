@@ -4,7 +4,7 @@ public static class DbInitializer
     {
         public static void Seed(IApplicationBuilder applicationBuilder)
         {
-            ShopingDBContext context = applicationBuilder.ApplicationServices.CreateScope().ServiceProvider.GetRequiredService<ShopingDBContext>();
+            ShoppingDBContext context = applicationBuilder.ApplicationServices.CreateScope().ServiceProvider.GetRequiredService<ShoppingDBContext>();
 
             if (!context.Categories.Any())
             {

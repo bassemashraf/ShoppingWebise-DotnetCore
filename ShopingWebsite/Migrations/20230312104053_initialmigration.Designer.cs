@@ -10,7 +10,7 @@ using ShopingWebsite.Models;
 
 namespace ShopingWebsite.Migrations
 {
-    [DbContext(typeof(ShopingDBContext))]
+    [DbContext(typeof(ShoppingDBContext))]
     [Migration("20230312104053_initialmigration")]
     partial class initialmigration
     {

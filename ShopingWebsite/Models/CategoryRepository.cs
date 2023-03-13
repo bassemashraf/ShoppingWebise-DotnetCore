@@ -4,8 +4,8 @@ namespace ShopingWebsite.Models
 {
     public class CategoryRepository : ICategoryRepository
     {
-        private readonly ShopingDBContext _dbContext;
-        public CategoryRepository(ShopingDBContext dbContext)
+        private readonly ShoppingDBContext _dbContext;
+        public CategoryRepository(ShoppingDBContext dbContext)
         {
             _dbContext = dbContext;
         }

@@ -4,8 +4,8 @@ namespace ShopingWebsite.Models
 {
     public class PieRepository  :IPieRepository
     {
-        private readonly ShopingDBContext _dbContext;
-        public PieRepository(ShopingDBContext dbContext )
+        private readonly ShoppingDBContext _dbContext;
+        public PieRepository(ShoppingDBContext dbContext )
         {
 
             _dbContext = dbContext;

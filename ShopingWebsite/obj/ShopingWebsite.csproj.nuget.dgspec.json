@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Bassem\\Bassem\\work\\DotNet\\ShopingWebsite\\ShopingWebsite\\ShopingWebsite.csproj": {}
+    "D:\\Bassem\\Bassem\\work\\DotNet\\ShoppingWebise-DotnetCore\\ShopingWebsite\\ShopingWebsite.csproj": {}
   },
   "projects": {
-    "D:\\Bassem\\Bassem\\work\\DotNet\\ShopingWebsite\\ShopingWebsite\\ShopingWebsite.csproj": {
+    "D:\\Bassem\\Bassem\\work\\DotNet\\ShoppingWebise-DotnetCore\\ShopingWebsite\\ShopingWebsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bassem\\Bassem\\work\\DotNet\\ShopingWebsite\\ShopingWebsite\\ShopingWebsite.csproj",
+        "projectUniqueName": "D:\\Bassem\\Bassem\\work\\DotNet\\ShoppingWebise-DotnetCore\\ShopingWebsite\\ShopingWebsite.csproj",
         "projectName": "ShopingWebsite",
-        "projectPath": "D:\\Bassem\\Bassem\\work\\DotNet\\ShopingWebsite\\ShopingWebsite\\ShopingWebsite.csproj",
+        "projectPath": "D:\\Bassem\\Bassem\\work\\DotNet\\ShoppingWebise-DotnetCore\\ShopingWebsite\\ShopingWebsite.csproj",
         "packagesPath": "C:\\Users\\Smart Lap\\.nuget\\packages\\",
-        "outputPath": "D:\\Bassem\\Bassem\\work\\DotNet\\ShopingWebsite\\ShopingWebsite\\obj\\",
+        "outputPath": "D:\\Bassem\\Bassem\\work\\DotNet\\ShoppingWebise-DotnetCore\\ShopingWebsite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

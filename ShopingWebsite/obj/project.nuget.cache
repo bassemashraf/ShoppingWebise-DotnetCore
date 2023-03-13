@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "04wElGGPD8u1Ty7zSwBSc+IYtVafNNvR6+bLEYHrJBb04rvsxf0V8DdZX+JffwVovq1kL/DHee2C4EHDp+qzTw==",
+  "dgSpecHash": "QR+UiRFuVdGqvS5d6Jh1v22kmW0WS15yGr6mtyNHMAcay/o/iGbnpVsEt1YfWphyITVJuo0FktyN79iqqbBcSw==",
   "success": true,
-  "projectFilePath": "D:\\Bassem\\Bassem\\work\\DotNet\\ShopingWebsite\\ShopingWebsite\\ShopingWebsite.csproj",
+  "projectFilePath": "D:\\Bassem\\Bassem\\work\\DotNet\\ShoppingWebise-DotnetCore\\ShopingWebsite\\ShopingWebsite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Smart Lap\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Smart Lap\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
