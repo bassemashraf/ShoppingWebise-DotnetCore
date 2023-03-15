@@ -13,11 +13,23 @@ namespace ShopingWebsite.Controllers
             _PieRepository = pieRepository;
             _CategoryReposiory = categoryRepository;
         }
-        public IActionResult List() 
+        public ViewResult List(string Category) 
         {
-            PieListViewModel pieListViewModel = new PieListViewModel
-                (_PieRepository.AllPies , "All Pies");
-            return View(pieListViewModel);
+            IEnumerable<Pie> Pies;
+            String? CurrentCategory;
+            if (Category == null)
+            {
+                Pies = _PieRepository.AllPies;
+                CurrentCategory = "All Pies";
+
+            }
+            else 
+            {
+                Pies = _PieRepository.AllPies.Where(PI => PI.Category.CategoryName == Category).OrderBy(P => P.PieId);
+                CurrentCategory = _CategoryReposiory.AllCategories.FirstOrDefault(ca=> ca.CategoryName== Category)?.CategoryName ;
+            }
+            
+            return View(new PieListViewModel(Pies,CurrentCategory));
         }
         public IActionResult Details(int id)
         {

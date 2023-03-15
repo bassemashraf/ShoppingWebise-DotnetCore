@@ -7,6 +7,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<IPieRepository, PieRepository>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IOrderRepository,OrderRepository>();
 
 builder.Services.AddScoped<IShoppingCart, ShoppingCart>(Sp=> ShoppingCart.GetCart(Sp));
 
