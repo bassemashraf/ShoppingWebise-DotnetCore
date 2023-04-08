@@ -34,5 +34,10 @@ namespace ShopingWebsite.Models
             return _dbContext.Pies.FirstOrDefault(p =>
           p.PieId == id);
         }
+
+        public IEnumerable<Pie> SearchPies(string searchQuery)
+        {
+            return _dbContext.Pies.Where(p => p.Name.Contains(searchQuery)); 
+        }
     }
 }

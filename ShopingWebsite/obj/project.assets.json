@@ -3510,23 +3510,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Smart Lap\\.nuget\\packages\\": {},
+    "C:\\Users\\Bassem\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Bassem\\Bassem\\work\\DotNet\\ShoppingWebise-DotnetCore\\ShopingWebsite\\ShopingWebsite.csproj",
+      "projectUniqueName": "D:\\Bassem\\Github\\ShoppingWebise-DotnetCore\\ShopingWebsite\\ShopingWebsite.csproj",
       "projectName": "ShopingWebsite",
-      "projectPath": "D:\\Bassem\\Bassem\\work\\DotNet\\ShoppingWebise-DotnetCore\\ShopingWebsite\\ShopingWebsite.csproj",
-      "packagesPath": "C:\\Users\\Smart Lap\\.nuget\\packages\\",
-      "outputPath": "D:\\Bassem\\Bassem\\work\\DotNet\\ShoppingWebise-DotnetCore\\ShopingWebsite\\obj\\",
+      "projectPath": "D:\\Bassem\\Github\\ShoppingWebise-DotnetCore\\ShopingWebsite\\ShopingWebsite.csproj",
+      "packagesPath": "C:\\Users\\Bassem\\.nuget\\packages\\",
+      "outputPath": "D:\\Bassem\\Github\\ShoppingWebise-DotnetCore\\ShopingWebsite\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Smart Lap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bassem\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3535,6 +3535,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3589,7 +3590,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
