@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FIypkkWDEnYr2zSwKvsOty3jiroKCNgTeXKmWhXQPCEeABkRAz6j/9V/JN3qr23ILcivetTKYpiht7k6iSBFTA==",
+  "dgSpecHash": "MOY90BKDIzZp/QS2AJQLOtRojoSjL+JxGVm02OrFTmUUzr/ZnOL7OTswGdcQ0lusHR+xYc1zSvjoAg4S6mPoAA==",
   "success": true,
   "projectFilePath": "D:\\Bassem\\Github\\ShoppingWebise-DotnetCore\\ShoppingwebsiteTest\\ShoppingwebsiteTest.csproj",
   "expectedPackageFiles": [
@@ -142,15 +142,10 @@
     "C:\\Users\\Bassem\\.nuget\\packages\\xunit.core\\2.4.2\\xunit.core.2.4.2.nupkg.sha512",
     "C:\\Users\\Bassem\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
     "C:\\Users\\Bassem\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
-    "C:\\Users\\Bassem\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512"
+    "C:\\Users\\Bassem\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512",
+    "C:\\Users\\Bassem\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Bassem\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Bassem\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU3037",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\': The repository primary signature validity period has expired.",
-      "libraryId": "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl"
-    }
-  ]
+  "logs": []
 }

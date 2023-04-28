@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "O4IJnVnRyQ4wp8Qnk9iMEqJ9acL7FGKNzR/kf8w3QHp0WFAm2+9HmHJKMYnclhXhBSedO6mjWhH2Uu6WXB4FwA==",
+  "dgSpecHash": "c7fxArKOHL5pLCezw3enPMiDRq33Am3revWUkvv/jaM3SHxBhX339xVNKykK1DJzrWNOmTybY8m+zs16KZ3Otg==",
   "success": true,
   "projectFilePath": "D:\\Bassem\\Github\\ShoppingWebise-DotnetCore\\ShopingWebsite\\ShopingWebsite.csproj",
   "expectedPackageFiles": [
@@ -71,7 +71,11 @@
     "C:\\Users\\Bassem\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\Bassem\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\Bassem\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Bassem\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+    "C:\\Users\\Bassem\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Bassem\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Bassem\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Bassem\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Bassem\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }
